@@ -3,7 +3,8 @@ package chaitanya.programmer.sorting.algorithms;
 /**
  * This program performs bouble sort on an array of integers.
  */
-public class bubbleSort {
+public class bubbleSort 
+{
 	
 	public static void main(String[] args)
 	{
@@ -32,8 +33,11 @@ public class bubbleSort {
 	 * 
 	 * @param array
 	 * @param i
+	 * 
+	 * @author Chaitanya
 	 */
-	private static void sort(int[] array, int i) {
+	private static void sort(int[] array, int i) 
+	{
 		int a = array[i];
 		array[i] = array[i+1];
 		array[i+1] = a;
